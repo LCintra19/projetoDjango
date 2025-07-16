@@ -1,0 +1,17 @@
+<h2>Cadastrar Produto</h2>
+<form method="POST">
+    {% csrf_token %}
+    <label>Nome:</label><br>
+    <input type="text" name="nome"><br><br>
+
+    <label>Preço:</label><br>
+    <input type="number" step="0.01" name="preco"><br><br>
+
+    <label>Descrição:</label><br>
+    <textarea name="descricao"></textarea><br><br>
+
+    <button type="submit">Salvar</button>
+</form>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+
+</head>
